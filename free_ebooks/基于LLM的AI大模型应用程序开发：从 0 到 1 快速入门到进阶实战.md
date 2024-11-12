@@ -13738,6 +13738,7 @@ sample_applicant = data.iloc[0].drop("loan_approved")
 explanation = fair_ai_system.explain_decision(pd.DataFrame([sample_applicant]))
 print("\nDecision Explanation for Sample Applicant:")
 print(explanation)
+```
 
 #### 9.4.2 就业市场的变革与应对
 
