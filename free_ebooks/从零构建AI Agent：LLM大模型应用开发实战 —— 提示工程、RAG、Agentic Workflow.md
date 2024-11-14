@@ -517,6 +517,9 @@ graph TD
     F[环境] -->|输入| G(传统AI系统)
     G -->|处理| H[预定义算法]
     H -->|输出| F
+    
+    %% 定义样式
+    classDef default fill:#ffffff,stroke:#000000,color:#000000;
 ```
 
 这个图表清楚地展示了AI Agent的循环决策和学习过程，以及它与环境的持续交互，而传统AI系统则是一个更加线性的输入-处理-输出过程。
@@ -1219,7 +1222,11 @@ graph TD
     F --> G[输出层]
     G --> H[解码策略]
     H --> I[生成文本]
+
+    %% 定义样式
+    classDef default fill:#ffffff,stroke:#000000,color:#000000;
 ```
+
 
 数学公式：
 
@@ -1327,6 +1334,14 @@ graph TD
     C --> G[文本连贯性]
     C --> H[多样性]
     C --> I[创造性]
+    
+    %% 定义样式
+    classDef default fill:#ffffff,stroke:#000000,color:#000000;
+```
+
+
+```mermaid
+graph TD
     J[LLM局限性] --> K[事实准确性]
     J --> L[推理深度]
     J --> M[常识理解]
@@ -1334,6 +1349,9 @@ graph TD
     J --> O[上下文长度限制]
     J --> P[一致性]
     J --> Q[偏见问题]
+    
+    %% 定义样式
+    classDef default fill:#ffffff,stroke:#000000,color:#000000;
 ```
 
 为了量化LLM的性能，研究人员通常使用各种评估指标。以下是一些常用的评估指标及其数学表示：
